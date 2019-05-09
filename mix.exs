@@ -36,6 +36,8 @@ defmodule EctoChangesetExtra.MixProject do
       {:ex_doc, "~> 0.20", only: :dev},
       {:credo, "~> 1.0", only: [:dev, :test]},
       {:excoveralls, "~> 0.9", only: :test},
+      {:result, "~> 1.3"},
+      {:ecto, "~> 3.1"}
     ]
   end
 end
