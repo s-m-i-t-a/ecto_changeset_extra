@@ -8,7 +8,7 @@
 ```elixir
 def deps do
   [
-    {:ecto_changeset_extra, "~> 0.1.1"}
+    {:ecto_changeset_extra, "~> 0.2.0"}
   ]
 end
 ```
