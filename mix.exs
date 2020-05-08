@@ -33,11 +33,11 @@ defmodule EctoChangesetExtra.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ex_doc, "~> 0.20", only: :dev},
-      {:credo, "~> 1.0", only: [:dev, :test]},
-      {:excoveralls, "~> 0.9", only: :test},
-      {:result, "~> 1.3"},
-      {:ecto, "~> 3.1"}
+      {:ex_doc, "~> 0.21", only: :dev},
+      {:credo, "~> 1.4", only: [:dev, :test]},
+      {:excoveralls, "~> 0.12", only: :test},
+      {:result, "~> 1.5"},
+      {:ecto, "~> 3.4"}
     ]
   end
 end
